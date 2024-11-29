@@ -4,4 +4,206 @@
 
 The following is based on a ficticious company: 
 
-Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
+Botium Toys: Scope, goals, and risk assessment report
+
+Summary: Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
+
+The manager of the IT department has decided that an internal IT audit needs to be conducted. She's worried about maintaining compliance and business operations as the company grows without a clear plan. She believes an internal audit can help better secure the company’s infrastructure and help them identify and mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to internally processing and accepting online payments and conducting business in the European Union (E.U.).
+
+Your task is to review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist.
+Scope and goals of the audit
+Scope: The scope of this audit is defined as the entire security program at Botium Toys. This includes all company assets are to be assessed alongside current internal processes and procedures as related to the implementation of industry controls and compliance like the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF) and the Payment Card Industry Data Security Standard (PCI DSS). 
+Goals: Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices that need to be implemented to  improve Botium Toys’ security posture.
+Current assets
+Assets managed by the IT Department include: 
+On-premises equipment for in-office business needs  
+Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
+Storefront products available for retail sale on site and online; stored in the company’s adjoining warehouse
+Management of systems, software, and services: accounting, telecommunication, database, security, ecommerce, and inventory management
+Internet access
+Internal network
+Data retention and storage
+Legacy system maintenance: end-of-life systems that require human monitoring 
+Risk assessment
+Risk description
+Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards. 
+Control best practices
+The first of the five functions of the NIST CSF is Identify. Botium Toys will need to dedicate resources to identify assets so they can appropriately manage them. Additionally, they will need to classify existing assets and determine the impact of the loss of existing assets, including systems, on business continuity.
+Risk score
+On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.
+Additional comments
+The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:
+
+Additional Information
+Controls within cybersecurity are grouped into three main categories:
+
+Administrative/Managerial controls
+Technical controls
+Physical/Operational controls
+
+Control types, providing defense and  include, but are not limited to:	
+Preventative
+Corrective
+Detective
+Deterrent
+Control Assessment Checklist: 
+Administrative/Managerial Controls
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+No
+Least Privilege
+Preventative; Currently, all Botium Toys employees have access to internally stored data and may be able to access cardholder data and customers’ PII/SPII. Updating this control will reduce the overall risk of a potential breach.
+High
+No
+Disaster recovery plans
+Corrective; Presently Botium Toys does not have a disaster recovery plan in place. Impleting a recovery plan will ensure the organization maintains continuity.
+High
+Other
+Password policies/Password management system
+Preventative; Currently, Botium has a password policy in place; however, it is inadequate and poses significant security risks. Strengthening the organization’s password authentication rules will enhance its overall security posture. This includes implementing requirements for password complexity, expiration, and lifecycle monitoring to mitigate vulnerabilities. Additionally, implementing a robust password policy supports better management of account lifecycles. This reduces the organization's attack surface, limits risks associated with default account usage, and mitigates potential damage caused by disgruntled former employees. Furthermore, Botium lacks a centralized password management system to enforce minimum password requirements. This gap can lead to inefficiencies, as employees and vendors frequently rely on the IT department for password recovery or resets. Implementing a centralized system would not only improve compliance with security policies but also boost productivity by streamlining password-related processes.
+High/Medium
+No
+Separation of duties
+Preventative; Currently separation of duties have not been implemented (all employees have access to locally stored data, specifically customers data PII and PSII) limiting accountability. As a result, this vulnerability can be exploited. Establishing clear duties will mitigate the impact of potential known risks. 
+High
+
+
+
+Technical Controls
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+Yes
+Firewall
+Preventative; Botium Toys’ IT department has a firewall that blocks traffic based on an appropriately defined set of security rules.
+X
+No
+Intrusion detection system (IDS)
+Detective; IDS detects and prevents anomalous traffic that matches a signature or rule. The IT department has not installed an intrusion detection system (IDS) exposing Botium Toys to potential interal and external threat actors. Having an IDS in place would help the IT Team identify possible breaches from threat actors. 
+High
+No
+Backups
+Corrective; Presently Botium Toys does not have a backup plan in place. Impleting incremental/partial/full backup plans will ensure the organization’s ability to restore/recover critical data maintaining continuity.
+High
+Yes
+Antivirus software
+Preventative; Antivirus software is installed and monitored regularly by the IT department. 
+X
+Other
+Manual monitoring, maintenance, and intervention
+Preventative: While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear. These are necessary to identify and manage threats, risks, or vulnerabilities to out-of-date systems
+High/Medium
+No
+Encryption
+Deterrent; Encryption provides confidentiality to sensitive data and is not currently used, by Botium Toys, to ensure confidentiality of customers’ credit card information that is accepted, processed, transmitted, and stored locally in the company’s internal database. This violate laws and regulations.
+High
+
+
+
+Physical/Operational Controls
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+Yes
+Locks (offices, storefront, warehouse)
+Preventative; Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks.
+X
+Yes
+Closed-circuit television (CCTV) surveillance
+Preventative; Botium Toys’ maintains an up-to-date closed-circuit television (CCTV) surveillance.
+X
+Yes
+Fire detection/prevention (fire alarm, sprinkler system, etc.)
+Preventative; Botium Toys’ maintains a functioning fire detection and prevention systems.
+X
+
+
+Compliance Checklist: 
+Payment Card Industry Data Security Standard (PCI DSS)
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+No
+Only authorized users have access to customers’ credit card information. 
+Preventative; As noted under Administrative/Managerial Controls, all Botium Toys employees have access to internally stored data and may be able to access cardholder data and customers’ PII/SPII. This is a poor business practice. Updating this control will reduce the overall risk of a potential breach.
+High
+Yes
+Credit card information is stored, accepted, processed, and transmitted internally, in a secure environment.
+The IT department has ensured availability and integrated controls to ensure data integrity.
+X
+Yes
+Implement data encryption procedures to better secure credit card transaction touchpoints and data. 
+The IT department has established a plan to notify E.U. customers within 72 hours if there is a security breach. Additionally, privacy policies, procedures, and processes have been developed and are enforced among IT department members/other employees, to properly document and maintain data.
+X
+No
+Adopt secure password management policies.
+Preventative; As noted under Administrative/Managerial Controls. 
+
+
+
+
+
+General Data Protection Regulation (GDPR)
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+No
+E.U. customers’ data is kept private/secured.
+Preventative; Botium Toys does not adhere to the GDPR placing them at risk and fines from the E.U. government.
+Medium
+Yes
+There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach.
+The IT department has established a plan to notify E.U. customers within 72
+hours if there is a security breach. Additionally, privacy policies, procedures, and
+processes have been developed and are enforced among IT department
+members/other employees, to properly document and maintain data.
+
+
+X
+Yes
+Ensure data is properly classified and inventoried.
+Preventative; Botium Toys has controls in place. 
+X
+Yes
+Enforce privacy policies, procedures, and processes to properly document and maintain data.
+Preventative; As noted above, privacy policies, procedures, and
+processes have been developed and are enforced among IT department
+members/other employees, to properly document and maintain data.
+X
+
+
+System and Organizations Controls (SOC type 1, SOC type 2) 
+Yes/No/Other
+Control
+Explaination(s)
+Implementation Priority
+Other
+User access policies are established.
+Preventative; least privilege controls have not been established. However, basic login/password is in place.
+High/Medium
+No
+Sensitive data (PII/SPII) is confidential/private.
+Preventative; least privilege controls have not been established.
+High
+Yes
+Data integrity ensures the data is consistent, complete, accurate, and has been validated.
+Data integrity is established.
+X
+No
+Data is available to individuals authorized to access it.
+Preventative; Currently all users have the ability to access this is a poor business practice.
+High/Medium
+
+
+Recommendations:
+Upon evaluation of Botium Toys’ security posture, the current security practices do not consistently meet instrustry standards resulting in a lack of continuity of confidentiality, integrity and availability. The following recommendations will aid in the mitigation of threats and risks, by addressing the compliance and regulation gaps, and to reduce risks to assets and improve Botium Toys’ security posture:
+Least Privelge 
+Disaster Recovery Plan
+Password Policy & Password Management System
+Encryption
